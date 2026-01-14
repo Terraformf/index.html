@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ROCKSTAR GAMES</title>
+</head>
+<body>
+    <audio id="rockstarAudio">
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+<header>
+        <button onclick="playMusic()" style="background: #fdb927; color: black; font-weight: bold; cursor: pointer; padding: 10px;">
+    PLAY SOUND
+</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Rockstar_Games_Logo.svg" alt="Rockstar Logo" width="50">
+        <h1>Welcome To ROCKSTAR GAMES</h1>
+        <p>This is the Best Gaming COM.</p>
+        
+        <nav>
+        <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#about">Support</a></li>
+        </ul>  
+        </nav>
+    </header>  
+        
+    <main>
+        <section id="games">
+            <h2>Featured Games</h2>
+            <figure> 
+                <img src="https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/640/GTAV.jpg" 
+                     alt="Grand Theft Auto V Official Game Poster" 
+                     width="300"> 
+                <figcaption>Grand Theft Auto V - Out Now</figcaption> 
+            </figure>
+        </section>
+    </main>
+   
+</body>
+<script>
+    function playMusic() {
+        var audio = document.getElementById("rockstarAudio");
+        audio.play();
+    }
+</script>
+</html>    
